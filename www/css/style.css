@@ -1,0 +1,62 @@
+/* Custom CSS */
+.ion-content-stable {
+  background-color: #f8f8f8;
+}
+.ion-content-dark {
+  background-color: #444;
+}
+.timer-content {
+  padding-top: 3em;
+}
+.timer-element {
+  margin: 0 0.3em;
+  color: #f8f8f8;
+  font-size: 3em;
+  display: block;
+}
+.timer-element .icon {
+  color: #999;
+  font-size: 0.4em;
+  margin: 1em 0 1em;
+}
+.timer-element-small {
+  font-size: 2em;
+  margin: 0.8em 0.6em;
+}
+.timer-millis {
+  color: #777;
+  font-size: 0.5em;
+  vertical-align: super;
+  margin-left: 0.3em;
+}
+
+.scroll {
+  height: 100%;
+}
+
+.dash-banner {
+  width: 100%;
+  height: 40%;
+  min-height: 12em;
+}
+.dash-banner-1 {
+  background: url('../img/banner-1.png');
+  background-size: cover;
+  background-position: center;
+}
+.dash-banner-2 {
+  background: url('../img/banner-2.png');
+  background-size: cover;
+  background-position: center;
+}
+.dash-banner-3 {
+  background: url('../img/banner-3.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.run-banner {
+  background: url('../img/map.png');
+  background-size: cover;
+  background-position: center;
+}

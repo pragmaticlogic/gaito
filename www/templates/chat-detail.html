@@ -1,0 +1,29 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{route.title}}">
+  <ion-content class="padding ion-content-dark timer-content">
+    <h2 class="timer-element">
+      <i class="icon ion-clock"></i>
+      {{timer}}<span class="timer-millis">{{timerMs}}</span>
+    </h2>
+    <h2 class="timer-element timer-element-small">
+      <i class="icon ion-flag"></i>
+      5 km
+    </h2>
+    <button class="button button-full button-energized" ng-click="toggle()">{{action}}</button>
+    <div class="card card-dark">
+      <div class="item item-text-wrap item-energized" ng-if="connected!==true">
+        <i class="icon ion-more"></i>
+        &nbsp;Verbinding maken met Genneper Parken...
+      </div>
+      <div class="item item-text-wrap item-balanced" ng-if="connected===true">
+        <i class="icon ion-checkmark-circled"></i>
+        &nbsp;Verbonden met Genneper Parken
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

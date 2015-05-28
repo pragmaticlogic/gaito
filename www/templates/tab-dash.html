@@ -1,0 +1,33 @@
+<ion-view view-title="Genneper Parken">
+  <ion-content class="ion-content-stable">
+      <ion-slide-box auto-play="true" does-continue="true">
+        <ion-slide ng-click="selectItem()">
+          <div class="dash-banner dash-banner-1"></div>
+        </ion-slide>
+        <ion-slide ng-click="selectItem()">
+          <div class="dash-banner dash-banner-2"></div>
+        </ion-slide>
+        <ion-slide ng-click="selectItem()">
+          <div class="dash-banner dash-banner-3"></div>
+        </ion-slide>
+      </ion-slide-box>
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Search" ng-model="query">
+        </label>
+      </div>
+      <div class="list">
+
+        <a ng-repeat="item in items | filter:query"
+           href="#"
+           class="item item-thumbnail-left" ng-click="selectItem(item.id)">
+
+          <img ng-src="{{ item.image }}">
+          <h2>{{ item.title }}</h2>
+          <h4>{{ item.description }}</h4>
+        </a>
+
+      </div>
+  </ion-content>
+</ion-view>
