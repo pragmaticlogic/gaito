@@ -1,4 +1,4 @@
-# Gaito for Genneper Parken [![Dependency Status](https://david-dm.org/accommodavid/genneperapp.svg)](https://david-dm.org/accommodavid/genneperapp)
+# Gaito for Genneper Parken [![Dependency Status](https://david-dm.org/accommodavid/gaito.svg)](https://david-dm.org/accommodavid/gaito)
 
 University project that turns street lights into performance trackers for runners.
 Open the app, start tracking, then go to [this web interface](https://safe-garden-3090.herokuapp.com/) for a real-time display. There's also an [interactive mock-up of what the interface that manages all Gaito nodes would look like](https://github.com/Accommodavid/gaito-management).
