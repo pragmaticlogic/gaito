@@ -3,7 +3,7 @@
 University project that turns street lights into performance trackers for runners.
 Open the app, start tracking, then go to [this web interface](https://safe-garden-3090.herokuapp.com/) for a real-time display.
 
-![img_0777](https://cloud.githubusercontent.com/assets/6472410/10306648/ca0a015e-6c28-11e5-9b41-7cb0e8ef642d.PNG = 250x)
+<img alt="Screenshot of the app" src="https://cloud.githubusercontent.com/assets/6472410/10306648/ca0a015e-6c28-11e5-9b41-7cb0e8ef642d.PNG = 250x" width="250">
 
 The whole thing uses Ionic as a mobile app framework and Socket.io for sending the data. You should consider it more as an interactive sketch or proof of concept, rather than a working prototype.
 
